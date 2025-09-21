@@ -1,0 +1,11 @@
+# Commands to run after creating GitHub repository:
+
+# 1. Add your GitHub repository as remote origin
+# (Replace 'yourusername' and 'deep-researcher-agent' with your actual GitHub username and repo name)
+git remote add origin https://github.com/yourusername/deep-researcher-agent.git
+
+# 2. Push your code to GitHub
+git push -u origin main
+
+# 3. Go to Streamlit Cloud and deploy
+# Visit: https://share.streamlit.io
