@@ -1,0 +1,40 @@
+{
+  "name": "Deep Researcher Agent",
+  "description": "AI-powered research assistant with local embedding generation and multi-step reasoning",
+  "repository": "https://github.com/yourusername/deep-researcher-agent",
+  "logo": "https://raw.githubusercontent.com/yourusername/deep-researcher-agent/main/assets/logo.png",
+  "keywords": [
+    "ai",
+    "research",
+    "nlp",
+    "embeddings",
+    "streamlit",
+    "machine-learning"
+  ],
+  "stack": "heroku-20",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "STREAMLIT_SERVER_PORT": {
+      "description": "Port for Streamlit server",
+      "value": "8501"
+    },
+    "STREAMLIT_SERVER_HEADLESS": {
+      "description": "Run Streamlit in headless mode",
+      "value": "true"
+    },
+    "STREAMLIT_BROWSER_GATHER_USAGE_STATS": {
+      "description": "Disable usage statistics",
+      "value": "false"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
