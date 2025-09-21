@@ -234,4 +234,8 @@ Feel free to extend the system with additional features:
 - Additional embedding models
 - Enhanced reasoning strategies
 - Web interface
+<<<<<<< HEAD
 - Database integration
+=======
+- Database integration
+>>>>>>> 1cc8722e5a2431fc1c461e2d933546625f7bd18f
